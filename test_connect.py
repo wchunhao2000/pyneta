@@ -5,7 +5,7 @@ net_connect = ConnectHandler(
     username='pyclass',
     password=getpass(),
     device_type='cisco_xe',
-#   session_log='my_session.txt,
+    session_log='my_session.txt',
 )
 
 print(net_connect.find_prompt())
