@@ -1,0 +1,46 @@
+
+
+
+cisco4#terminal width 511
+cisco4#terminal length 0
+cisco4#
+cisco4#
+cisco4#
+cisco4#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+cisco4(config)#
+cisco4(config)#
+cisco4(config)#end
+cisco4#
+cisco4#
+cisco4#show ip int br
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   10.220.88.23    YES manual up                    up      
+GigabitEthernet0/0/1   unassigned      YES NVRAM  administratively down down    
+GigabitEthernet0/1/0   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/1   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/2   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/3   unassigned      YES unset  down                  down    
+Vlan1                  unassigned      YES manual up                    down    
+cisco4#disable
+cisco4>enable
+Password: 
+% Password:  timeout expired!
+% Error in authentication.
+
+cisco4>********
+% Bad IP address or host name% Unknown command or computer name, or unable to find computer address
+cisco4>
+cisco4>
+cisco4>
+cisco4>
+cisco4>
+cisco4>
+cisco4>enable
+Password: 
+% Password:  timeout expired!
+% Error in authentication.
+
+cisco4>
+cisco4>enable
+Password: 

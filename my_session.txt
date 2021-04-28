@@ -1,0 +1,40 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#
+cisco3#
+cisco3#
+cisco3#show ip int b
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   10.220.88.22    YES NVRAM  up                    up      
+GigabitEthernet0/0/1   unassigned      YES unset  administratively down down    
+GigabitEthernet0/1/0   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/1   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/2   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/3   unassigned      YES unset  down                  down    
+Virtual-Access1        unassigned      YES unset  down                  down    
+Vlan1                  unassigned      YES unset  up                    down    
+cisco3#
+cisco3#show arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.220.88.1            34   0062.ec29.70fe  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.20           51   c89c.1dea.0eb6  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.22            -   a093.5141.b780  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.28          206   00aa.fc05.b513  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.31           38   00ac.fc59.97f2  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.37          167   0001.00ff.0001  ARPA   GigabitEthernet0/0/0
+Internet  10.220.88.38           27   0002.00ff.0001  ARPA   GigabitEthernet0/0/0
+cisco3#show ip int b
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   10.220.88.22    YES NVRAM  up                    up      
+GigabitEthernet0/0/1   unassigned      YES unset  administratively down down    
+GigabitEthernet0/1/0   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/1   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/2   unassigned      YES unset  down                  down    
+GigabitEthernet0/1/3   unassigned      YES unset  down                  down    
+Virtual-Access1        unassigned      YES unset  down                  down    
+Vlan1                  unassigned      YES unset  up                    down    
+cisco3#
