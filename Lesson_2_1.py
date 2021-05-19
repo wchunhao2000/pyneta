@@ -11,8 +11,8 @@ device1 = {
 net_connect = ConnectHandler(**device1)
 print(net_connect.find_prompt())
 
-command = 'ping'
-output = net_connect.send_command(command, expect_string=r'ip',strip_prompt=False,strip_command=False)
+#command = 'ping'
+output = net_connect.send_command('ping', expect_string=r'ip',strip_prompt=False,strip_command=False)
 output += net_connect.send_command('ip', expect_string=r'Target')
 output += net_connect.send_command('8.8.8.8', expect_string=r'5',strip_prompt=False, strip_command=False)
 output += net_connect.send_command('5', expect_string=r'100')
